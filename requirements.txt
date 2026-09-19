@@ -1,0 +1,12 @@
+# Install a PyTorch build compatible with the target CUDA or accelerator stack
+# before installing this file when the platform requires a custom wheel.
+-r verl/requirements.txt
+
+# Runtime engine used by the public launchers.
+vllm
+
+# RAD optimizer package with the RADAR implementation.
+pytorch-rad @ git+https://github.com/TobiasLv/RAD.git@v0.2.0
+
+# Install the local runtime in editable mode for development.
+-e ./verl

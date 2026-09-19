@@ -1,0 +1,9 @@
+This project is licensed under the Apache License, Version 2.0.
+
+This repository includes third-party components with their own licenses:
+
+- `verl/` is distributed under the Apache License, Version 2.0. See
+  `verl/LICENSE` and `verl/Notice.txt`.
+- The RADAR optimizer is installed from the upstream `pytorch-rad` package at
+  tag `v0.2.0` and is distributed under the MIT License. See
+  https://github.com/TobiasLv/RAD.
